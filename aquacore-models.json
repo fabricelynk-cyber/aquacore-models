@@ -1,0 +1,107 @@
+{
+  "manifestVersion": 1,
+  "catalogName": "AquaCore Ollama Models",
+  "updatedAt": "2026-05-14",
+  "defaultModel": "qwen2.5:1.5b",
+  "models": [
+    {
+      "id": "qwen2.5:1.5b",
+      "label": "Qwen 2.5 1.5B",
+      "family": "qwen",
+      "category": "rapide",
+      "recommended": true,
+      "visible": true,
+      "sizeLabel": "léger",
+      "minRamGb": 8,
+      "notes": "Très léger. Convient aux postes modestes. Réponse rapide."
+    },
+    {
+      "id": "qwen3:4b",
+      "label": "Qwen 3 4B",
+      "family": "qwen",
+      "category": "equilibre",
+      "recommended": true,
+      "visible": true,
+      "sizeLabel": "modéré",
+      "minRamGb": 12,
+      "notes": "Bon compromis actuel pour AquaCore."
+    },
+    {
+      "id": "qwen3:8b",
+      "label": "Qwen 3 8B",
+      "family": "qwen",
+      "category": "qualite",
+      "recommended": true,
+      "visible": true,
+      "sizeLabel": "5.2 GB",
+      "minRamGb": 16,
+      "notes": "Très bon saut qualitatif pour les analyses AquaCore."
+    },
+    {
+      "id": "qwen3:14b",
+      "label": "Qwen 3 14B",
+      "family": "qwen",
+      "category": "qualite_plus",
+      "recommended": false,
+      "visible": true,
+      "sizeLabel": "9.3 GB",
+      "minRamGb": 24,
+      "notes": "Analyse plus fine, plus lourd, plutôt pour postes solides."
+    },
+    {
+      "id": "mistral-nemo",
+      "label": "Mistral NeMo 12B",
+      "family": "mistral",
+      "category": "analyse_poussee",
+      "recommended": false,
+      "visible": true,
+      "sizeLabel": "12B",
+      "minRamGb": 24,
+      "notes": "Très intéressant pour les analyses longues et multi-années."
+    },
+    {
+      "id": "gemma3:4b",
+      "label": "Gemma 3 4B",
+      "family": "gemma",
+      "category": "equilibre",
+      "recommended": false,
+      "visible": true,
+      "sizeLabel": "4B",
+      "minRamGb": 12,
+      "notes": "Alternative légère et moderne."
+    },
+    {
+      "id": "gemma3:12b",
+      "label": "Gemma 3 12B",
+      "family": "gemma",
+      "category": "qualite",
+      "recommended": false,
+      "visible": true,
+      "sizeLabel": "12B",
+      "minRamGb": 24,
+      "notes": "Bonne qualité générale, plus exigeant."
+    },
+    {
+      "id": "deepseek-r1:8b",
+      "label": "DeepSeek R1 8B",
+      "family": "deepseek",
+      "category": "analyse_poussee",
+      "recommended": false,
+      "visible": true,
+      "sizeLabel": "8B",
+      "minRamGb": 16,
+      "notes": "Intéressant pour des analyses plus raisonnées."
+    },
+    {
+      "id": "deepseek-r1:14b",
+      "label": "DeepSeek R1 14B",
+      "family": "deepseek",
+      "category": "analyse_poussee",
+      "recommended": false,
+      "visible": true,
+      "sizeLabel": "14B",
+      "minRamGb": 24,
+      "notes": "Plus puissant, mais plus lent et plus lourd."
+    }
+  ]
+}
