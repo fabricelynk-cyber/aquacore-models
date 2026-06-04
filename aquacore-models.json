@@ -1,7 +1,7 @@
 {
   "manifestVersion": 1,
   "catalogName": "AquaCore Ollama Models",
-  "updatedAt": "2026-05-27",
+  "updatedAt": "2026-06-04",
   "defaultModel": "qwen2.5:1.5b",
   "models": [
     {
@@ -11,9 +11,10 @@
       "category": "rapide",
       "recommended": true,
       "visible": true,
-      "sizeLabel": "l\u00e9ger",
+      "sizeLabel": "léger",
       "minRamGb": 8,
-      "notes": "Tr\u00e8s l\u00e9ger. Convient aux postes modestes. R\u00e9ponse rapide."
+      "notes": "Très léger. Convient aux postes modestes. Réponse rapide.",
+      "updatedAt": "2025-06-01"
     },
     {
       "id": "qwen3:4b",
@@ -22,9 +23,10 @@
       "category": "equilibre",
       "recommended": true,
       "visible": true,
-      "sizeLabel": "mod\u00e9r\u00e9",
+      "sizeLabel": "modéré",
       "minRamGb": 12,
-      "notes": "Bon compromis actuel pour AquaCore."
+      "notes": "Bon compromis actuel pour AquaCore.",
+      "updatedAt": "2025-11-01"
     },
     {
       "id": "qwen3:8b",
@@ -35,7 +37,8 @@
       "visible": true,
       "sizeLabel": "5.2 GB",
       "minRamGb": 16,
-      "notes": "Tr\u00e8s bon saut qualitatif pour les analyses AquaCore."
+      "notes": "Très bon saut qualitatif pour les analyses AquaCore.",
+      "updatedAt": "2025-11-01"
     },
     {
       "id": "qwen3:14b",
@@ -46,7 +49,8 @@
       "visible": true,
       "sizeLabel": "9.3 GB",
       "minRamGb": 24,
-      "notes": "Analyse plus fine, plus lourd, plut\u00f4t pour postes solides."
+      "notes": "Analyse plus fine, plus lourd, plutôt pour postes solides.",
+      "updatedAt": "2025-11-01"
     },
     {
       "id": "mistral-nemo",
@@ -57,7 +61,8 @@
       "visible": true,
       "sizeLabel": "12B",
       "minRamGb": 24,
-      "notes": "Tr\u00e8s int\u00e9ressant pour les analyses longues et multi-ann\u00e9es."
+      "notes": "Très intéressant pour les analyses longues et multi-années.",
+      "updatedAt": "2025-08-01"
     },
     {
       "id": "gemma3:4b",
@@ -68,7 +73,8 @@
       "visible": true,
       "sizeLabel": "4B",
       "minRamGb": 12,
-      "notes": "Alternative l\u00e9g\u00e8re et moderne."
+      "notes": "Alternative légère et moderne.",
+      "updatedAt": "2025-06-01"
     },
     {
       "id": "gemma3:12b",
@@ -79,7 +85,8 @@
       "visible": true,
       "sizeLabel": "12B",
       "minRamGb": 24,
-      "notes": "Bonne qualit\u00e9 g\u00e9n\u00e9rale, plus exigeant."
+      "notes": "Bonne qualité générale, plus exigeant.",
+      "updatedAt": "2025-06-01"
     },
     {
       "id": "deepseek-r1:8b",
@@ -90,7 +97,8 @@
       "visible": true,
       "sizeLabel": "8B",
       "minRamGb": 16,
-      "notes": "Int\u00e9ressant pour des analyses plus raisonn\u00e9es."
+      "notes": "Intéressant pour des analyses plus raisonnées.",
+      "updatedAt": "2026-05-28"
     },
     {
       "id": "deepseek-r1:14b",
@@ -101,7 +109,8 @@
       "visible": true,
       "sizeLabel": "14B",
       "minRamGb": 24,
-      "notes": "Plus puissant, mais plus lent et plus lourd."
+      "notes": "Plus puissant, mais plus lent et plus lourd.",
+      "updatedAt": "2025-06-01"
     }
   ]
 }
