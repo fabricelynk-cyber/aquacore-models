@@ -1,7 +1,7 @@
 {
   "manifestVersion": 1,
   "catalogName": "AquaCore Ollama Models",
-  "updatedAt": "2026-06-04",
+  "updatedAt": "2026-06-12",
   "defaultModel": "qwen2.5:1.5b",
   "models": [
     {
@@ -11,9 +11,21 @@
       "category": "rapide",
       "recommended": true,
       "visible": true,
-      "sizeLabel": "léger",
+      "sizeLabel": "986 MB",
       "minRamGb": 8,
-      "notes": "Très léger. Convient aux postes modestes. Réponse rapide.",
+      "notes": "Tres leger. Convient aux postes modestes. Reponse rapide.",
+      "updatedAt": "2025-06-01"
+    },
+    {
+      "id": "qwen3:1.7b",
+      "label": "Qwen 3 1.7B",
+      "family": "qwen",
+      "category": "rapide",
+      "recommended": false,
+      "visible": true,
+      "sizeLabel": "1.4 GB",
+      "minRamGb": 8,
+      "notes": "Alternative Qwen 3 tres legere pour les postes modestes.",
       "updatedAt": "2025-06-01"
     },
     {
@@ -23,7 +35,7 @@
       "category": "equilibre",
       "recommended": true,
       "visible": true,
-      "sizeLabel": "modéré",
+      "sizeLabel": "2.5 GB",
       "minRamGb": 12,
       "notes": "Bon compromis actuel pour AquaCore.",
       "updatedAt": "2025-11-01"
@@ -37,7 +49,7 @@
       "visible": true,
       "sizeLabel": "5.2 GB",
       "minRamGb": 16,
-      "notes": "Très bon saut qualitatif pour les analyses AquaCore.",
+      "notes": "Tres bon saut qualitatif pour les analyses AquaCore.",
       "updatedAt": "2025-11-01"
     },
     {
@@ -49,7 +61,19 @@
       "visible": true,
       "sizeLabel": "9.3 GB",
       "minRamGb": 24,
-      "notes": "Analyse plus fine, plus lourd, plutôt pour postes solides.",
+      "notes": "Analyse plus fine, plus lourd, plutot pour postes solides.",
+      "updatedAt": "2025-11-01"
+    },
+    {
+      "id": "qwen3:30b",
+      "label": "Qwen 3 30B",
+      "family": "qwen",
+      "category": "expert",
+      "recommended": false,
+      "visible": true,
+      "sizeLabel": "19 GB",
+      "minRamGb": 32,
+      "notes": "Nouvelle variante Qwen 3 tres performante, reservee aux postes tres solides.",
       "updatedAt": "2025-11-01"
     },
     {
@@ -59,9 +83,9 @@
       "category": "analyse_poussee",
       "recommended": false,
       "visible": true,
-      "sizeLabel": "12B",
+      "sizeLabel": "7.1 GB",
       "minRamGb": 24,
-      "notes": "Très intéressant pour les analyses longues et multi-années.",
+      "notes": "Tres interessant pour les analyses longues et multi-annees.",
       "updatedAt": "2025-08-01"
     },
     {
@@ -71,9 +95,9 @@
       "category": "equilibre",
       "recommended": false,
       "visible": true,
-      "sizeLabel": "4B",
+      "sizeLabel": "3.3 GB",
       "minRamGb": 12,
-      "notes": "Alternative légère et moderne.",
+      "notes": "Alternative legere et moderne.",
       "updatedAt": "2025-06-01"
     },
     {
@@ -83,9 +107,45 @@
       "category": "qualite",
       "recommended": false,
       "visible": true,
-      "sizeLabel": "12B",
+      "sizeLabel": "8.1 GB",
       "minRamGb": 24,
-      "notes": "Bonne qualité générale, plus exigeant.",
+      "notes": "Bonne qualite generale, plus exigeant.",
+      "updatedAt": "2025-06-01"
+    },
+    {
+      "id": "gemma4:e4b",
+      "label": "Gemma 4 E4B",
+      "family": "gemma",
+      "category": "qualite",
+      "recommended": false,
+      "visible": true,
+      "sizeLabel": "9.6 GB",
+      "minRamGb": 16,
+      "notes": "Nouvelle generation Gemma 4, tres complete pour analyse et raisonnement local.",
+      "updatedAt": "2026-06-10"
+    },
+    {
+      "id": "gemma4:12b",
+      "label": "Gemma 4 12B",
+      "family": "gemma",
+      "category": "qualite_plus",
+      "recommended": false,
+      "visible": true,
+      "sizeLabel": "7.6 GB",
+      "minRamGb": 24,
+      "notes": "Modele Gemma 4 poste de travail, plus ambitieux pour analyses longues.",
+      "updatedAt": "2026-06-05"
+    },
+    {
+      "id": "deepseek-r1:1.5b",
+      "label": "DeepSeek R1 1.5B",
+      "family": "deepseek",
+      "category": "rapide",
+      "recommended": false,
+      "visible": true,
+      "sizeLabel": "1.1 GB",
+      "minRamGb": 8,
+      "notes": "Version DeepSeek R1 la plus legere pour raisonnement local d appoint.",
       "updatedAt": "2025-06-01"
     },
     {
@@ -95,9 +155,9 @@
       "category": "analyse_poussee",
       "recommended": false,
       "visible": true,
-      "sizeLabel": "8B",
+      "sizeLabel": "5.2 GB",
       "minRamGb": 16,
-      "notes": "Intéressant pour des analyses plus raisonnées.",
+      "notes": "Interessant pour des analyses plus raisonnees.",
       "updatedAt": "2026-05-28"
     },
     {
@@ -107,7 +167,7 @@
       "category": "analyse_poussee",
       "recommended": false,
       "visible": true,
-      "sizeLabel": "14B",
+      "sizeLabel": "9.0 GB",
       "minRamGb": 24,
       "notes": "Plus puissant, mais plus lent et plus lourd.",
       "updatedAt": "2025-06-01"
