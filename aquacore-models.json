@@ -98,7 +98,10 @@
       "sizeLabel": "17 GB",
       "minRamGb": 32,
       "notes": "Version recente haut de gamme, reservee aux postes tres solides pour des analyses locales poussees.",
-      "updatedAt": null
+      "updatedAt": null,
+      "supersedes": [
+        "qwen3:30b"
+      ]
     },
     {
       "id": "mistral-nemo",
@@ -146,7 +149,10 @@
       "sizeLabel": "9.6 GB",
       "minRamGb": 16,
       "notes": "Nouvelle generation Gemma 4, tres complete pour analyse et raisonnement local.",
-      "updatedAt": "2026-06-10"
+      "updatedAt": "2026-06-10",
+      "supersedes": [
+        "gemma3:4b"
+      ]
     },
     {
       "id": "gemma4:12b",
@@ -158,7 +164,10 @@
       "sizeLabel": "7.6 GB",
       "minRamGb": 24,
       "notes": "Modele Gemma 4 poste de travail, plus ambitieux pour analyses longues.",
-      "updatedAt": "2026-06-05"
+      "updatedAt": "2026-06-05",
+      "supersedes": [
+        "gemma3:12b"
+      ]
     },
     {
       "id": "deepseek-r1:1.5b",
