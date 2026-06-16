@@ -1,7 +1,7 @@
 {
   "manifestVersion": 1,
   "catalogName": "AquaCore Ollama Models",
-  "updatedAt": "2026-06-12",
+  "updatedAt": "2026-06-16",
   "defaultModel": "qwen2.5:1.5b",
   "models": [
     {
@@ -75,6 +75,30 @@
       "minRamGb": 32,
       "notes": "Nouvelle variante Qwen 3 tres performante, reservee aux postes tres solides.",
       "updatedAt": "2025-11-01"
+    },
+    {
+      "id": "qwen3.5:9b",
+      "label": "Qwen 3.5 9B",
+      "family": "qwen",
+      "category": "qualite",
+      "recommended": false,
+      "visible": true,
+      "sizeLabel": "6.6 GB",
+      "minRamGb": 16,
+      "notes": "Modele recent et polyvalent, avec vision, utile pour des analyses plus riches sur des postes confortables.",
+      "updatedAt": null
+    },
+    {
+      "id": "qwen3.6:27b",
+      "label": "Qwen 3.6 27B",
+      "family": "qwen",
+      "category": "expert",
+      "recommended": false,
+      "visible": true,
+      "sizeLabel": "17 GB",
+      "minRamGb": 32,
+      "notes": "Version recente haut de gamme, reservee aux postes tres solides pour des analyses locales poussees.",
+      "updatedAt": null
     },
     {
       "id": "mistral-nemo",
