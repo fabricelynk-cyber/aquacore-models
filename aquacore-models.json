@@ -1,7 +1,7 @@
 {
   "manifestVersion": 1,
   "catalogName": "AquaCore Ollama Models",
-  "updatedAt": "2026-06-16",
+  "updatedAt": "2026-07-14",
   "defaultModel": "qwen2.5:1.5b",
   "models": [
     {
@@ -104,6 +104,18 @@
       ]
     },
     {
+      "id": "gpt-oss:20b",
+      "label": "gpt-oss 20B",
+      "family": "gpt-oss",
+      "category": "expert",
+      "recommended": false,
+      "visible": true,
+      "sizeLabel": "14 GB",
+      "minRamGb": 16,
+      "notes": "Modele open-weight recent concu pour le raisonnement, les usages agentiques et les traitements avances en local.",
+      "updatedAt": null
+    },
+    {
       "id": "mistral-nemo",
       "label": "Mistral NeMo 12B",
       "family": "mistral",
@@ -114,6 +126,18 @@
       "minRamGb": 24,
       "notes": "Tres interessant pour les analyses longues et multi-annees.",
       "updatedAt": "2025-08-01"
+    },
+    {
+      "id": "mistral-small3.2:24b",
+      "label": "Mistral Small 3.2 24B",
+      "family": "mistral",
+      "category": "expert",
+      "recommended": false,
+      "visible": true,
+      "sizeLabel": "15 GB",
+      "minRamGb": 32,
+      "notes": "Modele Mistral recent avec meilleure precision d instruction et moins de repetitions, adapte aux postes solides.",
+      "updatedAt": null
     },
     {
       "id": "gemma3:4b",
